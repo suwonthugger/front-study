@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders learn react link 1`] = `
+<div>
+  <div
+    class="sc-beySPh rBqBP"
+  >
+    <header
+      class="sc-guDLey hlUJhx"
+    >
+      <img
+        alt="logo"
+        class="sc-dmyCSP lekBuf"
+        src="logo.svg"
+      />
+      <p>
+        Edit 
+        <code>
+          src/App.tsx
+        </code>
+         and save to reload.
+      </p>
+      <a
+        class="sc-hLQSwg eeRkIG"
+        href="https://reactjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn React
+      </a>
+    </header>
+  </div>
+</div>
+`;

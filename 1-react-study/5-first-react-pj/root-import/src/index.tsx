@@ -1,19 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+// import App from "./Component/App";
+import App from "Component/App";
 import reportWebVitals from "./reportWebVitals";
 
-// const rootElement = document.getElementById('root');
-
-// if (!rootElement) {
-//   console.error("'root' 요소를 찾을 수 없습니다.");
-// } else {
-//   const root = ReactDOM.createRoot(rootElement);
-//   root.render(<App />);
-// }
-
-const root = ReactDOM.createRoot(document.getElementById("root")!);
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+);
 root.render(
   <React.StrictMode>
     <App />
